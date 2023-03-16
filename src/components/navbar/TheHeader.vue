@@ -19,8 +19,9 @@
       />
       <div class="text-base font-medium">Vue Boost</div>
     </div>
-    <p class="text-sm font-light italic mt-2">{{ $t('title') }}</p>
+    <p class="text-sm font-light italic mt-2">Boost your productivity with Vue Boost</p>
   </header>
+  
 </template>
 
 <script setup lang="ts"></script>

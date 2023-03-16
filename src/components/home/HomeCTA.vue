@@ -7,10 +7,10 @@
       required
       type="text"
       v-model="name"
-      :placeholder="$t('placeholder')"
+      placeholder="What's your name?"
       class="text-center"
     />
-    <BaseButton :label="$t('go')" class="px-6 h-[35px]" @click="reRoute" />
+    <BaseButton label="go" class="px-6 h-[35px]" @click="reRoute" />
   </form>
 </template>
 

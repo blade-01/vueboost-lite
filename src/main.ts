@@ -8,9 +8,6 @@ import router from './router';
 // Tailwind Styles
 import './style.css';
 
-// MDI Fonts
-import '@mdi/font/css/materialdesignicons.css';
-
 // Lazy Loaders
 import lazyPlugin from 'vue3-lazy';
 
@@ -32,9 +29,6 @@ import '@vueup/vue-quill/dist/vue-quill.snow.css';
 
 // Vue Apex Charts
 import VueApexCharts from 'vue3-apexcharts';
-
-// Internationalization
-import i18n from './locales/i18n';
 
 const pinia = createPinia();
 
@@ -68,7 +62,6 @@ app
   .use(Toast, options)
   .use(head)
   .use(VueApexCharts)
-  .use(i18n)
   .component('vue-tel-input', VueTelInput)
   .component('QuillEditor', QuillEditor)
   .mount('#app');

@@ -3,9 +3,9 @@
     <div class="flex flex-col gap-2 items-center text-center">
       <Icon icon="mdi:run-fast" width="70" />
       <h1 class="text-center font-medium">Hi, {{ name }}! 👋</h1>
-      <p class="text-sm font-light">{{$t('dynamic')}}</p>
+      <p class="text-sm font-light">Demo of dynamic route</p>
     </div>
-    <BaseButton :label="$t('back')" class="px-6 h-[35px]" @click="goBack" />
+    <BaseButton label="back" class="px-6 h-[35px]" @click="goBack" />
     <TheFooter />
   </div>
 </template>
