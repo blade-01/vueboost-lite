@@ -16,7 +16,7 @@ Inspired by <a href="https://github.com/antfu/vitesse">Vitesse</a>
 <br>
 
 <p align='center'>
-<a href="https://vueboost.netlify.app/">Live Demo</a>
+<a href="https://vueboost-lite.netlify.app/">Live Demo</a>
 </p>
 
 <br>
@@ -31,13 +31,9 @@ Inspired by <a href="https://github.com/antfu/vitesse">Vitesse</a>
 
 - 🍍 [State Management via Pinia](https://pinia.vuejs.org/)
 
-- 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
-
 - 🎨 [TailwindCSS](https://tailwindcss.com/)
 
 - 😃 [Use icons from Iconify](https://iconify.design)
-
-- 🌍 [I18n ready](./locales)
 
 - 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 
@@ -58,7 +54,6 @@ Inspired by <a href="https://github.com/antfu/vitesse">Vitesse</a>
 ### Icons
 
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.js.org)
-- [MDI Fonts](https://materialdesignicons.com/) - Material Design Icons (this can also be used from Iconify)
 
 ### Reuseable Components
 
@@ -75,7 +70,7 @@ Inspired by <a href="https://github.com/antfu/vitesse">Vitesse</a>
   - [Table](/src/components/reusables/BaseTable.vue) - Data table component
   - [Table Action](/src/components/reusables/BaseTableAction.vue) - Table Action component (view, edit and delete)
 - [Samples Folder](/src/components/samples/)
-  - You can find out how to use these components in the [Samples](/src/components/samples/) folder or visit [Vue Boost Dashboard](https://vueboost.netlify.app/dashboard) for the visualization
+  - You can find out how to use these components in the [Samples](/src/components/samples/) folder or visit [Vue Boost Dashboard](https://vueboost-lite.netlify.app/dashboard) for the visualization
 
 ### Plugins
 
@@ -116,22 +111,18 @@ Inspired by <a href="https://github.com/antfu/vitesse">Vitesse</a>
   - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=lokalise.i18n-ally) - All in one i18n support
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-### Variations
-
-- [Vue Boost + Nuxt 3](https://github.com/blade-01/vueboost-nuxt3) - Vue Boost for Nuxt 3.
-
 ## Try it now!
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/blade-01/vueboost/generate).
+[Create a repo from this template on GitHub](https://github.com/blade-01/vueboost-lite/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit blade-01/vueboost my-template
+npx degit blade-01/vueboost-lite my-template
 cd my-template
 pnpm i or yarn i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
