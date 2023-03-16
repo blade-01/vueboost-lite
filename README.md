@@ -16,7 +16,7 @@ Inspired by <a href="https://vueboost.netlify.app/">Vue Boost</a>
 <br>
 
 <p align='center'>
-<a href="https://vueboost-lite.netlify.app/">Live Demo</a>
+<a href="https://vueboost-lite.vercel.app/">Live Demo</a>
 </p>
 
 <br>
@@ -70,7 +70,7 @@ Inspired by <a href="https://vueboost.netlify.app/">Vue Boost</a>
   - [Table](/src/components/reusables/BaseTable.vue) - Data table component
   - [Table Action](/src/components/reusables/BaseTableAction.vue) - Table Action component (view, edit and delete)
 - [Samples Folder](/src/components/samples/)
-  - You can find out how to use these components in the [Samples](/src/components/samples/) folder or visit [Vue Boost Dashboard](https://vueboost-lite.netlify.app/dashboard) for the visualization
+  - You can find out how to use these components in the [Samples](/src/components/samples/) folder or visit [Vue Boost Dashboard](https://vueboost-lite.vercel.app/dashboard) for the visualization
 
 ### Plugins
 
