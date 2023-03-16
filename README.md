@@ -10,7 +10,7 @@ Boost your productivity with <strong>Vue Boost</strong> - work smarter, not hard
 <br>
 
 <p align='center'>
-Inspired by <a href="https://github.com/antfu/vitesse">Vitesse</a>
+Inspired by <a href="https://vueboost.netlify.app/">Vue Boost</a>
 </p>
 
 <br>
