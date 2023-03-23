@@ -184,6 +184,23 @@
     @apply left-0 lg:left-0 transition-[left] duration-500 ease-in-out;
   }
 
+  /* CHECKBOX TOGGLE */
+  .toggle-wrapper {
+    @apply relative inline-block w-10 align-middle select-none transition-all duration-200 ease-in;
+  }
+  .toggle-checkbox {
+    @apply absolute top-1/2 -translate-y-1/2 block w-5 h-5 ml-0.5 rounded-full bg-black border-2 border-white appearance-none cursor-pointer;
+  }
+  .toggle-checkbox:checked {
+    @apply right-[2px] bg-white;
+  }
+  .toggle-label {
+    @apply block overflow-hidden h-6 rounded-full bg-white border-2 border-black cursor-pointer;
+  }
+  .toggle-checkbox:checked + .toggle-label {
+    @apply bg-[#61cd8f] border-[#61cd8f];
+  }
+
   /* VUE TRANSITIONS */
   .fade-enter-active,
   .fade-leave-active {
